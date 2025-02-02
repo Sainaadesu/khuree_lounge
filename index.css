@@ -1,0 +1,71 @@
+body{
+    background-attachment: scroll;
+    margin: 0px;
+    height: 5000px;
+}
+.header{
+    display: flex;    
+    align-items: center;
+    background-color: #26150b;
+    z-index: 1;
+    top: 0px;
+    position: sticky;
+    height: 50px;
+
+}
+.logo{
+    margin-right: auto;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    color: #A49B6B;
+    margin: 16px;
+}
+.nav{
+    color: #f5f5f5;  
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.nav:hover {
+    color: white; 
+    border-color: #333; 
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.food_container {
+    display: flex;
+    height: 5000px; 
+    flex-direction: column;
+}
+.foods{
+    flex: 1;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.food1{
+    background-image: url(food_photo/food1.jpg);
+    
+}
+.food2{
+    background-image: url(food_photo/food2.webp);
+    
+}
+.food3{
+    background-image: url(food_photo/food3.jpg);
+    
+}
+.food4{
+    background-image: url(food_photo/food4.jpg);
+    
+}
+.food5{
+    background-image: url(food_photo/food5.jpg);
+    
+}
